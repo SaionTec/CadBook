@@ -1,57 +1,68 @@
-# CadBook
-Cadastro De Livros
-Este é um exemplo de aplicação CRUD (Create, Read, Update, Delete) de livros usando Python com o framework Django. A aplicação permite que os usuários realizem operações básicas de gerenciamento de livros, incluindo adicionar novos livros, visualizar detalhes de livros existentes, editar informações de livros e excluir livros do sistema.
+# CadastroDeLivros
+Este é um exemplo de aplicação CRUD (Create, Read, Update, Delete) de livros usando Python com o framework Django. A aplicação permite que os usuários realizem operações básicas de gerenciamento de livros, incluindo adicionar novos livros, visualizar detalhes de livros existentes, editar informações de livros e excluir livros do sistema. 
 
-Pré-requisitos Certifique-se de ter o Python e o Django instalados em seu sistema antes de prosseguir.
+  
 
-Instalação
+**Pré-requisitos**
+Certifique-se de ter o Python e o Django instalados em seu sistema antes de prosseguir. 
 
-Clone este repositório para o seu ambiente de desenvolvimento local
+  
 
-Navegue até o diretório do projeto
+**Instalação**
 
-Instale as dependências do projeto utilizando o pip e Execute as migrações do banco de dados para criar as tabelas necessárias:
+Clone este repositório para o seu ambiente de desenvolvimento local 
 
-python manage.py migrate
+Navegue até o diretório do projeto 
 
-Inicie o servidor de desenvolvimento:
+Instale as dependências do projeto utilizando o pip e Execute as migrações do banco de dados para criar as tabelas necessárias: 
 
-python manage.py runserver
+python manage.py migrate 
 
-Acesse a aplicação em seu navegador web utilizando o seguinte URL: http://127.0.0.1:8000/livro_list/
+Inicie o servidor de desenvolvimento: 
 
-Funcionalidades
+python manage.py runserver 
 
-Listar Livros: Visualize todos os livros cadastrados no sistema.
+Acesse a aplicação em seu navegador web utilizando o seguinte URL: 
+**http://127.0.0.1:8000/livro_list/**
 
-Adicionar Livro: Adicione novos livros fornecendo informações como título, autor, gênero, etc.
+ 
 
-Visualizar Detalhes do Livro: Visualize os detalhes de um livro específico, incluindo todas as informações disponíveis.
+**Funcionalidades** 
 
-Editar Livro: Edite as informações de um livro existente, como título, autor, gênero, etc.
+Listar Livros: Visualize todos os livros cadastrados no sistema. 
 
-Excluir Livro: Remova um livro do sistema.
+Adicionar Livro: Adicione novos livros fornecendo informações como título, autor, gênero, etc. 
 
-Estrutura do Projeto
+Visualizar Detalhes do Livro: Visualize os detalhes de um livro específico, incluindo todas as informações disponíveis. 
 
-A estrutura do projeto é organizada da seguinte forma:
+Editar Livro: Edite as informações de um livro existente, como título, autor, gênero, etc. 
 
-manage.py: Arquivo de gerenciamento do Django.
+Excluir Livro: Remova um livro do sistema. 
 
-djangoproject/: Diretório principal da aplicação.
+ 
 
-models.py: Define os modelos de dados para os livros.
+**Estrutura do Projeto**
 
-views.py: Define as views para manipulação das requisições HTTP.
+A estrutura do projeto é organizada da seguinte forma:  
 
-urls.py: Define as rotas URL para as views.
+manage.py: Arquivo de gerenciamento do Django. 
 
-templates/: Diretório contendo os templates HTML da aplicação.
+djangoproject/: Diretório principal da aplicação. 
 
-static/: Diretório contendo arquivos estáticos como CSS, JavaScript, etc.
+models.py: Define os modelos de dados para os livros. 
 
-migrations/: Diretório contendo as migrações do banco de dados.
+views.py: Define as views para manipulação das requisições HTTP. 
 
-Licença
+urls.py: Define as rotas URL para as views. 
 
-Este projeto está licenciado sob a MIT License.
+templates/: Diretório contendo os templates HTML da aplicação. 
+
+static/: Diretório contendo arquivos estáticos como CSS, JavaScript, etc. 
+
+migrations/: Diretório contendo as migrações do banco de dados. 
+
+**Licença**
+
+Este projeto está licenciado sob a MIT License. 
+
+ 
